@@ -41,17 +41,17 @@
 }
 
 
--(NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
-	return [representedObject methodSignatureForSelector: aSelector];
-}
-
--(void)forwardInvocation:(NSInvocation *)anInvocation {
-	[anInvocation invokeWithTarget: representedObject];
-}
-
--(BOOL)respondsToSelector:(SEL)selector {
-	return [super respondsToSelector: selector] || [representedObject respondsToSelector: selector];
-}
+// -(NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+// 	return [representedObject methodSignatureForSelector: aSelector];
+// }
+// 
+// -(void)forwardInvocation:(NSInvocation *)anInvocation {
+// 	[anInvocation invokeWithTarget: representedObject];
+// }
+// 
+// -(BOOL)respondsToSelector:(SEL)selector {
+// 	return [super respondsToSelector: selector] || [representedObject respondsToSelector: selector];
+// }
 
 
 -(id)valueForUndefinedKey:(NSString *)key {
@@ -69,9 +69,18 @@
 }
 
 
+-(void)bind:(NSString *)binding toObject:(id)obj withKeyPath:(NSString *)keyPath options:(NSDictionary *)options {
+	[representedObject bind: binding toObject: obj withKeyPath: keyPath options: options];
+}
+
+-(void)unbind:(NSString *)binding {
+	[representedObject unbind: binding];
+}
+
+
 -(id)copyWithZone:(NSZone *)zone {
 	ObjectBinder *copy = [[ObjectBinder allocWithZone: zone] init];
-	copy.representedObject = self.representedObject;
+	copy.representedObject = representedObject;
 	copy.keys = self.keys;
 	return copy;
 }
@@ -80,10 +89,12 @@
 -(void)setKeys:(NSArray *)k {
 	[self willChangeValueForKey: @"keys"];
 	[keys setArray: k];
-	for(NSString *key in keys) {
-		[[self class] exposeBinding: key];
-	}
 	[self didChangeValueForKey: @"keys"];
+}
+
+
+-(NSArray *)exposedBindings {
+	return [self keys];
 }
 
 @end

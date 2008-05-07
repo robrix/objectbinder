@@ -226,8 +226,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -280,7 +278,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 145}, {186, 433}}</string>
+							<string>{{0, 0}, {186, 433}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -344,6 +342,8 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -380,9 +380,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D421CF220DCB0674002030CE</string>
+				<string>D409B6EF0DD156DB0030F18F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D421CF230DCB0674002030CE</string>
+				<string>D409B6F00DD156DB0030F18F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -516,13 +516,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D421D1460DD0269D002030CE</string>
-		<string>D421D1470DD0269D002030CE</string>
-		<string>D421D1480DD0269D002030CE</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D421CEE00DCAFA65002030CE</string>
-		<string>D421D1610DD03032002030CE</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/rob/Developer/Projects/ObjectBinder/ObjectBinder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -542,14 +536,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ObjectBinderIntegration.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -566,6 +558,8 @@
 							<string>179pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -605,7 +599,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D421CEE00DCAFA65002030CE</string>
-				<string>D421CF240DCB0674002030CE</string>
+				<string>D409B6F10DD156DB0030F18F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -616,7 +610,7 @@
 			<key>WindowToolGUID</key>
 			<string>D421CEE00DCAFA65002030CE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
