@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>ObjectBinderFramework</string>
+	<string>RXObjectBinderFramework</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.garbagecollective.ObjectBinderFramework</string>
+	<string>org.robrix.RXObjectBinderFramework</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -17,6 +17,6 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSPrincipalClass</key>
-	<string>ObjectBinder</string>
+	<string>RXObjectBinder</string>
 </dict>
 </plist>

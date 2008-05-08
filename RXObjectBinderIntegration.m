@@ -1,9 +1,9 @@
 #import <InterfaceBuilderKit/InterfaceBuilderKit.h>
-#import <ObjectBinderFramework/ObjectBinder.h>
-#import "ObjectBinderInspector.h"
+#import <RXObjectBinderFramework/RXObjectBinder.h>
+#import "RXObjectBinderInspector.h"
 
 
-@implementation ObjectBinder (ObjectBinder)
+@implementation RXObjectBinder (RXObjectBinder)
 
 -(void)ibPopulateKeyPaths:(NSMutableDictionary *)keyPaths {
 	[super ibPopulateKeyPaths: keyPaths];
@@ -14,7 +14,7 @@
 
 -(void)ibPopulateAttributeInspectorClasses:(NSMutableArray *)classes {
 	[super ibPopulateAttributeInspectorClasses: classes];
-	[classes addObject: [ObjectBinderInspector class]];
+	[classes addObject: [RXObjectBinderInspector class]];
 }
 
 

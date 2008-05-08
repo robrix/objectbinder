@@ -267,7 +267,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>representedObject</string>
 				</object>
-				<string key="NSObjectClassName">AtomValue</string>
+				<string key="NSObjectClassName">RXAtomValue</string>
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAutomaticallyPreparesContent">YES</bool>
 				<object class="_NSManagedProxy" key="_NSManagedProxy"/>
@@ -390,7 +390,7 @@
 									<reference ref="5"/>
 									<reference ref="6"/>
 									<reference ref="6"/>
-									<string>AtomValueTransformer</string>
+									<string>RXAtomValueTransformer</string>
 								</object>
 							</object>
 							<int key="NSNibBindingConnectorVersion">2</int>
@@ -619,7 +619,7 @@
 			</object>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../../ObjectBinder.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../../RXObjectBinder.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableData" key="IBDocument.RunnableNib">
 			<bytes key="NS.bytes">YnBsaXN0MDDUAAEAAgADAAQABQAGAAkAClgkdmVyc2lvblQkdG9wWSRhcmNoaXZlclgkb2JqZWN0cxIA

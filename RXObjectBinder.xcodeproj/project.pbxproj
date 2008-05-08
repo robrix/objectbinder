@@ -23,20 +23,20 @@
 
 /* Begin PBXBuildFile section */
 		13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
-		546DEAF3067F632A0098DCC4 /* ObjectBinderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* ObjectBinderFramework.framework */; };
-		54D33B2906778E3300C9C163 /* ObjectBinder.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 54D33B2806778E3300C9C163 /* ObjectBinder.classdescription */; };
-		8D1AC96C0486D14A00FE50C9 /* ObjectBinderInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C577FE90428111CA0C5A /* ObjectBinderInspector.m */; settings = {ATTRIBUTES = (); }; };
+		546DEAF3067F632A0098DCC4 /* RXObjectBinderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* RXObjectBinderFramework.framework */; };
+		54D33B2906778E3300C9C163 /* RXObjectBinder.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 54D33B2806778E3300C9C163 /* RXObjectBinder.classdescription */; };
+		8D1AC96C0486D14A00FE50C9 /* RXObjectBinderInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C577FE90428111CA0C5A /* RXObjectBinderInspector.m */; settings = {ATTRIBUTES = (); }; };
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */; };
-		C044829F0C3328F4006E818F /* ObjectBinderIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = C044829E0C3328F4006E818F /* ObjectBinderIntegration.m */; };
-		C08787290A49DE9A00E9B151 /* ObjectBinderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* ObjectBinderPlugin.m */; };
-		C0A47C500A523B730004BDC3 /* ObjectBinderInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = C05B20D80A48CB530099B9E5 /* ObjectBinderInspector.nib */; };
+		C044829F0C3328F4006E818F /* RXObjectBinderIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = C044829E0C3328F4006E818F /* RXObjectBinderIntegration.m */; };
+		C08787290A49DE9A00E9B151 /* RXObjectBinderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* RXObjectBinderPlugin.m */; };
+		C0A47C500A523B730004BDC3 /* RXObjectBinderInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = C05B20D80A48CB530099B9E5 /* RXObjectBinderInspector.nib */; };
 		C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */; };
-		D1AEDE470A6C289C0010C343 /* ObjectBinderLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = D1AEDE460A6C289C0010C343 /* ObjectBinderLibrary.nib */; };
-		D421CEF70DCAFE54002030CE /* ObjectBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = D421CEF50DCAFE54002030CE /* ObjectBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D421CEF80DCAFE54002030CE /* ObjectBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D421CEF60DCAFE54002030CE /* ObjectBinder.m */; };
-		D421CF3D0DCB0A1A002030CE /* ObjectBinder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D421CF3C0DCB0A1A002030CE /* ObjectBinder.tiff */; };
-		D421D04C0DCD1714002030CE /* AtomValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D421D04A0DCD1714002030CE /* AtomValueTransformer.m */; };
+		D1AEDE470A6C289C0010C343 /* RXObjectBinderLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = D1AEDE460A6C289C0010C343 /* RXObjectBinderLibrary.nib */; };
+		D421CEF70DCAFE54002030CE /* RXObjectBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = D421CEF50DCAFE54002030CE /* RXObjectBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D421CEF80DCAFE54002030CE /* RXObjectBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D421CEF60DCAFE54002030CE /* RXObjectBinder.m */; };
+		D421CF3D0DCB0A1A002030CE /* RXObjectBinder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D421CF3C0DCB0A1A002030CE /* RXObjectBinder.tiff */; };
+		D421D04C0DCD1714002030CE /* RXAtomValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,48 +45,48 @@
 			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D1AC9600486D14A00FE50C9;
-			remoteInfo = ObjectBinder;
+			remoteInfo = RXObjectBinder;
 		};
 		53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
-			remoteInfo = ObjectBinderFramework;
+			remoteInfo = RXObjectBinderFramework;
 		};
 		546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
-			remoteInfo = ObjectBinderFramework;
+			remoteInfo = RXObjectBinderFramework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0259C576FE90428111CA0C5A /* ObjectBinderPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ObjectBinderPlugin.m; sourceTree = "<group>"; };
-		0259C577FE90428111CA0C5A /* ObjectBinderInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ObjectBinderInspector.m; sourceTree = "<group>"; };
-		0259C57AFE90428111CA0C5A /* ObjectBinderPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ObjectBinderPlugin.h; sourceTree = "<group>"; };
-		0259C57BFE90428111CA0C5A /* ObjectBinderInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ObjectBinderInspector.h; sourceTree = "<group>"; };
+		0259C576FE90428111CA0C5A /* RXObjectBinderPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RXObjectBinderPlugin.m; sourceTree = "<group>"; };
+		0259C577FE90428111CA0C5A /* RXObjectBinderInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RXObjectBinderInspector.m; sourceTree = "<group>"; };
+		0259C57AFE90428111CA0C5A /* RXObjectBinderPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RXObjectBinderPlugin.h; sourceTree = "<group>"; };
+		0259C57BFE90428111CA0C5A /* RXObjectBinderInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RXObjectBinderInspector.h; sourceTree = "<group>"; };
 		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		13F8B88A07B434F6008AE28D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32DBCF980370C29C00C91783 /* ObjectBinder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectBinder_Prefix.pch; sourceTree = "<group>"; };
-		53DF68FD067E5B5A0090B5B0 /* ObjectBinderFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectBinderFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53DF68FE067E5B5A0090B5B0 /* ObjectBinderFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectBinderFramework-Info.plist"; sourceTree = "<group>"; };
-		54D33B2806778E3300C9C163 /* ObjectBinder.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectBinder.classdescription; sourceTree = "<group>"; };
+		32DBCF980370C29C00C91783 /* RXObjectBinder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXObjectBinder_Prefix.pch; sourceTree = "<group>"; };
+		53DF68FD067E5B5A0090B5B0 /* RXObjectBinderFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RXObjectBinderFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DF68FE067E5B5A0090B5B0 /* RXObjectBinderFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RXObjectBinderFramework-Info.plist"; sourceTree = "<group>"; };
+		54D33B2806778E3300C9C163 /* RXObjectBinder.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RXObjectBinder.classdescription; sourceTree = "<group>"; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1AC9740486D14A00FE50C9 /* ObjectBinder.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectBinder.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC9740486D14A00FE50C9 /* RXObjectBinder.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXObjectBinder.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C044829E0C3328F4006E818F /* ObjectBinderIntegration.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ObjectBinderIntegration.m; sourceTree = "<group>"; };
-		C05B20D80A48CB530099B9E5 /* ObjectBinderInspector.nib */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = wrapper.nib; name = ObjectBinderInspector.nib; path = English.lproj/ObjectBinderInspector.nib; sourceTree = "<group>"; };
+		C044829E0C3328F4006E818F /* RXObjectBinderIntegration.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RXObjectBinderIntegration.m; sourceTree = "<group>"; };
+		C05B20D80A48CB530099B9E5 /* RXObjectBinderInspector.nib */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = wrapper.nib; name = RXObjectBinderInspector.nib; path = English.lproj/RXObjectBinderInspector.nib; sourceTree = "<group>"; };
 		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
-		D1AEDE460A6C289C0010C343 /* ObjectBinderLibrary.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ObjectBinderLibrary.nib; path = English.lproj/ObjectBinderLibrary.nib; sourceTree = "<group>"; };
-		D421CEF50DCAFE54002030CE /* ObjectBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectBinder.h; sourceTree = "<group>"; };
-		D421CEF60DCAFE54002030CE /* ObjectBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectBinder.m; sourceTree = "<group>"; };
-		D421CF3C0DCB0A1A002030CE /* ObjectBinder.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ObjectBinder.tiff; sourceTree = "<group>"; };
-		D421D04A0DCD1714002030CE /* AtomValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AtomValueTransformer.m; path = /Users/rob/Developer/Projects/ObjectBinder/AtomValueTransformer.m; sourceTree = "<absolute>"; };
-		D421D04B0DCD1714002030CE /* AtomValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AtomValueTransformer.h; path = /Users/rob/Developer/Projects/ObjectBinder/AtomValueTransformer.h; sourceTree = "<absolute>"; };
+		D1AEDE460A6C289C0010C343 /* RXObjectBinderLibrary.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = RXObjectBinderLibrary.nib; path = English.lproj/RXObjectBinderLibrary.nib; sourceTree = "<group>"; };
+		D421CEF50DCAFE54002030CE /* RXObjectBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXObjectBinder.h; sourceTree = "<group>"; };
+		D421CEF60DCAFE54002030CE /* RXObjectBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXObjectBinder.m; sourceTree = "<group>"; };
+		D421CF3C0DCB0A1A002030CE /* RXObjectBinder.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RXObjectBinder.tiff; sourceTree = "<group>"; };
+		D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXAtomValueTransformer.m; sourceTree = "<group>"; };
+		D421D04B0DCD1714002030CE /* RXAtomValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXAtomValueTransformer.h; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
-				546DEAF3067F632A0098DCC4 /* ObjectBinderFramework.framework in Frameworks */,
+				546DEAF3067F632A0098DCC4 /* RXObjectBinderFramework.framework in Frameworks */,
 				C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,7 +112,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0259C574FE90428111CA0C5A /* ObjectBinder */ = {
+		0259C574FE90428111CA0C5A /* RXObjectBinder */ = {
 			isa = PBXGroup;
 			children = (
 				32DBCF9E0370C38000C91783 /* Plugin */,
@@ -121,14 +121,14 @@
 				1ED78706FE9D4A0611CA0C5A /* Products */,
 				2E58F364FFB232C311CA0CBA /* Frameworks */,
 			);
-			name = ObjectBinder;
+			name = RXObjectBinder;
 			sourceTree = "<group>";
 		};
 		0259C582FE90428111CA0C5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				8D1AC9730486D14A00FE50C9 /* Info.plist */,
-				53DF68FE067E5B5A0090B5B0 /* ObjectBinderFramework-Info.plist */,
+				53DF68FE067E5B5A0090B5B0 /* RXObjectBinderFramework-Info.plist */,
 				8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -137,9 +137,9 @@
 		131E8FE8067F80F40006E0CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D421CF3C0DCB0A1A002030CE /* ObjectBinder.tiff */,
-				D1AEDE460A6C289C0010C343 /* ObjectBinderLibrary.nib */,
-				C05B20D80A48CB530099B9E5 /* ObjectBinderInspector.nib */,
+				D421CF3C0DCB0A1A002030CE /* RXObjectBinder.tiff */,
+				D1AEDE460A6C289C0010C343 /* RXObjectBinderLibrary.nib */,
+				C05B20D80A48CB530099B9E5 /* RXObjectBinderInspector.nib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -166,8 +166,8 @@
 		1ED78706FE9D4A0611CA0C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AC9740486D14A00FE50C9 /* ObjectBinder.ibplugin */,
-				53DF68FD067E5B5A0090B5B0 /* ObjectBinderFramework.framework */,
+				8D1AC9740486D14A00FE50C9 /* RXObjectBinder.ibplugin */,
+				53DF68FD067E5B5A0090B5B0 /* RXObjectBinderFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,8 +195,8 @@
 		32DBCF9F0370C38200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C044829E0C3328F4006E818F /* ObjectBinderIntegration.m */,
-				32DBCF980370C29C00C91783 /* ObjectBinder_Prefix.pch */,
+				C044829E0C3328F4006E818F /* RXObjectBinderIntegration.m */,
+				32DBCF980370C29C00C91783 /* RXObjectBinder_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 		54D33B2406778DD400C9C163 /* Class Descriptions */ = {
 			isa = PBXGroup;
 			children = (
-				54D33B2806778E3300C9C163 /* ObjectBinder.classdescription */,
+				54D33B2806778E3300C9C163 /* RXObjectBinder.classdescription */,
 			);
 			name = "Class Descriptions";
 			sourceTree = "<group>";
@@ -212,12 +212,12 @@
 		54D33B2506778DF000C9C163 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D421D04A0DCD1714002030CE /* AtomValueTransformer.m */,
-				D421D04B0DCD1714002030CE /* AtomValueTransformer.h */,
-				0259C57AFE90428111CA0C5A /* ObjectBinderPlugin.h */,
-				0259C576FE90428111CA0C5A /* ObjectBinderPlugin.m */,
-				0259C57BFE90428111CA0C5A /* ObjectBinderInspector.h */,
-				0259C577FE90428111CA0C5A /* ObjectBinderInspector.m */,
+				D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */,
+				D421D04B0DCD1714002030CE /* RXAtomValueTransformer.h */,
+				0259C57AFE90428111CA0C5A /* RXObjectBinderPlugin.h */,
+				0259C576FE90428111CA0C5A /* RXObjectBinderPlugin.m */,
+				0259C57BFE90428111CA0C5A /* RXObjectBinderInspector.h */,
+				0259C577FE90428111CA0C5A /* RXObjectBinderInspector.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -233,8 +233,8 @@
 		C0894DA40C32F4C100401507 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D421CEF50DCAFE54002030CE /* ObjectBinder.h */,
-				D421CEF60DCAFE54002030CE /* ObjectBinder.m */,
+				D421CEF50DCAFE54002030CE /* RXObjectBinder.h */,
+				D421CEF60DCAFE54002030CE /* RXObjectBinder.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -246,16 +246,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D421CEF70DCAFE54002030CE /* ObjectBinder.h in Headers */,
+				D421CEF70DCAFE54002030CE /* RXObjectBinder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		53DF68FC067E5B5A0090B5B0 /* ObjectBinderFramework */ = {
+		53DF68FC067E5B5A0090B5B0 /* RXObjectBinderFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "ObjectBinderFramework" */;
+			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "RXObjectBinderFramework" */;
 			buildPhases = (
 				53DF68F8067E5B5A0090B5B0 /* Headers */,
 				53DF68F9067E5B5A0090B5B0 /* Resources */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = ObjectBinderFramework;
-			productName = ObjectBinderFramework;
-			productReference = 53DF68FD067E5B5A0090B5B0 /* ObjectBinderFramework.framework */;
+			name = RXObjectBinderFramework;
+			productName = RXObjectBinderFramework;
+			productReference = 53DF68FD067E5B5A0090B5B0 /* RXObjectBinderFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8D1AC9600486D14A00FE50C9 /* ObjectBinder */ = {
+		8D1AC9600486D14A00FE50C9 /* RXObjectBinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "ObjectBinder" */;
+			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "RXObjectBinder" */;
 			buildPhases = (
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
@@ -284,10 +284,10 @@
 			dependencies = (
 				546DEAF0067F62F70098DCC4 /* PBXTargetDependency */,
 			);
-			name = ObjectBinder;
+			name = RXObjectBinder;
 			productInstallPath = "$(HOME)/Developer/Palettes";
-			productName = ObjectBinder;
-			productReference = 8D1AC9740486D14A00FE50C9 /* ObjectBinder.ibplugin */;
+			productName = RXObjectBinder;
+			productReference = 8D1AC9740486D14A00FE50C9 /* RXObjectBinder.ibplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -295,16 +295,16 @@
 /* Begin PBXProject section */
 		0259C573FE90428111CA0C5A /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C056398B08A954F8003078D8 /* Build configuration list for PBXProject "ObjectBinder" */;
+			buildConfigurationList = C056398B08A954F8003078D8 /* Build configuration list for PBXProject "RXObjectBinder" */;
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
-			mainGroup = 0259C574FE90428111CA0C5A /* ObjectBinder */;
+			mainGroup = 0259C574FE90428111CA0C5A /* RXObjectBinder */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				53DF6901067E5B8E0090B5B0 /* All */,
-				8D1AC9600486D14A00FE50C9 /* ObjectBinder */,
-				53DF68FC067E5B5A0090B5B0 /* ObjectBinderFramework */,
+				8D1AC9600486D14A00FE50C9 /* RXObjectBinder */,
+				53DF68FC067E5B5A0090B5B0 /* RXObjectBinderFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -322,10 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */,
-				54D33B2906778E3300C9C163 /* ObjectBinder.classdescription in Resources */,
-				C0A47C500A523B730004BDC3 /* ObjectBinderInspector.nib in Resources */,
-				D1AEDE470A6C289C0010C343 /* ObjectBinderLibrary.nib in Resources */,
-				D421CF3D0DCB0A1A002030CE /* ObjectBinder.tiff in Resources */,
+				54D33B2906778E3300C9C163 /* RXObjectBinder.classdescription in Resources */,
+				C0A47C500A523B730004BDC3 /* RXObjectBinderInspector.nib in Resources */,
+				D1AEDE470A6C289C0010C343 /* RXObjectBinderLibrary.nib in Resources */,
+				D421CF3D0DCB0A1A002030CE /* RXObjectBinder.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D421CEF80DCAFE54002030CE /* ObjectBinder.m in Sources */,
+				D421CEF80DCAFE54002030CE /* RXObjectBinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08787290A49DE9A00E9B151 /* ObjectBinderPlugin.m in Sources */,
-				8D1AC96C0486D14A00FE50C9 /* ObjectBinderInspector.m in Sources */,
-				C044829F0C3328F4006E818F /* ObjectBinderIntegration.m in Sources */,
-				D421D04C0DCD1714002030CE /* AtomValueTransformer.m in Sources */,
+				C08787290A49DE9A00E9B151 /* RXObjectBinderPlugin.m in Sources */,
+				8D1AC96C0486D14A00FE50C9 /* RXObjectBinderInspector.m in Sources */,
+				C044829F0C3328F4006E818F /* RXObjectBinderIntegration.m in Sources */,
+				D421D04C0DCD1714002030CE /* RXAtomValueTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,17 +356,17 @@
 /* Begin PBXTargetDependency section */
 		53DF6903067E5B930090B5B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D1AC9600486D14A00FE50C9 /* ObjectBinder */;
+			target = 8D1AC9600486D14A00FE50C9 /* RXObjectBinder */;
 			targetProxy = 53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */;
 		};
 		53DF6905067E5B930090B5B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53DF68FC067E5B5A0090B5B0 /* ObjectBinderFramework */;
+			target = 53DF68FC067E5B5A0090B5B0 /* RXObjectBinderFramework */;
 			targetProxy = 53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */;
 		};
 		546DEAF0067F62F70098DCC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53DF68FC067E5B5A0090B5B0 /* ObjectBinderFramework */;
+			target = 53DF68FC067E5B5A0090B5B0 /* RXObjectBinderFramework */;
 			targetProxy = 546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,9 +396,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "ObjectBinderFramework-Info.plist";
+				INFOPLIST_FILE = "RXObjectBinderFramework-Info.plist";
 				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
-				PRODUCT_NAME = ObjectBinderFramework;
+				PRODUCT_NAME = RXObjectBinderFramework;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -413,8 +413,8 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "ObjectBinderFramework-Info.plist";
-				PRODUCT_NAME = ObjectBinderFramework;
+				INFOPLIST_FILE = "RXObjectBinderFramework-Info.plist";
+				PRODUCT_NAME = RXObjectBinderFramework;
 				SKIP_INSTALL = NO;
 			};
 			name = Release;
@@ -422,7 +422,7 @@
 		C056398408A954F8003078D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/ObjectBinderFramework.framework/Resources/";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/RXObjectBinderFramework.framework/Resources/";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -438,9 +438,9 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ObjectBinder_Prefix.pch;
+				GCC_PREFIX_HEADER = RXObjectBinder_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = ObjectBinder;
+				PRODUCT_NAME = RXObjectBinder;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = YES;
 			};
@@ -449,7 +449,7 @@
 		C056398508A954F8003078D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/ObjectBinderFramework.framework/Resources/";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/RXObjectBinderFramework.framework/Resources/";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -464,9 +464,9 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(BUILD_DIR)/$(CONFIGURATION)\"";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ObjectBinder_Prefix.pch;
+				GCC_PREFIX_HEADER = RXObjectBinder_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = ObjectBinder;
+				PRODUCT_NAME = RXObjectBinder;
 				WRAPPER_EXTENSION = ibplugin;
 			};
 			name = Release;
@@ -532,7 +532,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "ObjectBinderFramework" */ = {
+		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "RXObjectBinderFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C056398008A954F8003078D8 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "ObjectBinder" */ = {
+		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "RXObjectBinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C056398408A954F8003078D8 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C056398B08A954F8003078D8 /* Build configuration list for PBXProject "ObjectBinder" */ = {
+		C056398B08A954F8003078D8 /* Build configuration list for PBXProject "RXObjectBinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C056398C08A954F8003078D8 /* Debug */,

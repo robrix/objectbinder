@@ -1,15 +1,15 @@
-// AtomValueTransformer.m
+// RXAtomValueTransformer.m
 // Created by Rob Rix on 2008-05-03
 // Copyright 2008 Monochrome Industries
 
-#import "AtomValueTransformer.h"
+#import "RXAtomValueTransformer.h"
 
-@implementation AtomValue
+@implementation RXAtomValue
 
 @synthesize representedObject;
 
 +(id)atomValueWithRepresentedObject:(id)r {
-	AtomValue *instance = [[self alloc] init];
+	RXAtomValue *instance = [[self alloc] init];
 	instance.representedObject = r;
 	return [instance autorelease];
 }
@@ -30,7 +30,7 @@
 @end
 
 
-@implementation AtomValueTransformer
+@implementation RXAtomValueTransformer
 
 +(Class)transformedValueClass {
 	return [NSMutableArray class];
@@ -44,14 +44,14 @@
 -(id)transformedValue:(id)value {
 	NSMutableArray *wrappers = [NSMutableArray array];
 	for(id atom in value) {
-		[wrappers addObject: [AtomValue atomValueWithRepresentedObject: atom]];
+		[wrappers addObject: [RXAtomValue atomValueWithRepresentedObject: atom]];
 	}
 	return wrappers;
 }
 
 -(id)reverseTransformedValue:(id)value {
 	NSMutableArray *atoms = [NSMutableArray array];
-	for(AtomValue *wrapper in value) {
+	for(RXAtomValue *wrapper in value) {
 		[atoms addObject: wrapper.representedObject];
 	}
 	return atoms;

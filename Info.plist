@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>org.garbagecollective.ObjectBinderPlugin</string>
+	<string>org.robrix.RXObjectBinderPlugin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,6 +23,6 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSPrincipalClass</key>
-	<string>ObjectBinderPlugin</string>
+	<string>RXObjectBinderPlugin</string>
 </dict>
 </plist>

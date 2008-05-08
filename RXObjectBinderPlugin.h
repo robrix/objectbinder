@@ -1,4 +1,4 @@
 #import <InterfaceBuilderKit/InterfaceBuilderKit.h>
 
-@interface ObjectBinderPlugin : IBPlugin {}
+@interface RXObjectBinderPlugin : IBPlugin {}
 @end

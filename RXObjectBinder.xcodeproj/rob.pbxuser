@@ -2,14 +2,41 @@
 {
 	0259C573FE90428111CA0C5A /* Project object */ = {
 		activeArchitecture = i386;
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = C096A9340C03CEAB00263BB0 /* Interface Builder */;
 		activeTarget = 53DF6901067E5B8E0090B5B0 /* All */;
+		addToTargets = (
+			8D1AC9600486D14A00FE50C9 /* RXObjectBinder */,
+		);
 		codeSenseManager = C096A9330C03CEA700263BB0 /* Code sense */;
 		executables = (
 			C096A9340C03CEAB00263BB0 /* Interface Builder */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					222,
+					20,
+					123,
+					123,
+					52,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
@@ -29,9 +56,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					392,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -51,10 +78,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					324,
+					352,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -68,21 +95,35 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 201576068;
-			PBXWorkspaceStateSaveDate = 201576068;
+			PBXPerProjectTemplateStateSaveDate = 231956208;
+			PBXWorkspaceStateSaveDate = 231956208;
 		};
 		sourceControlManager = C096A9320C03CEA700263BB0 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	53DF68FC067E5B5A0090B5B0 /* ObjectBinderFramework */ = {
+	0259C576FE90428111CA0C5A /* RXObjectBinderPlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {778, 200}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 352}";
+		};
+	};
+	53DF68FC067E5B5A0090B5B0 /* RXObjectBinderFramework */ = {
 		activeExec = 0;
 	};
 	53DF6901067E5B8E0090B5B0 /* All */ = {
 		activeExec = 0;
 	};
-	8D1AC9600486D14A00FE50C9 /* ObjectBinder */ = {
+	8D1AC9600486D14A00FE50C9 /* RXObjectBinder */ = {
 		activeExec = 0;
+	};
+	C044829E0C3328F4006E818F /* RXObjectBinderIntegration.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {778, 210}}";
+			sepNavSelRange = "{628, 0}";
+			sepNavVisRange = "{179, 456}";
+		};
 	};
 	C096A9320C03CEA700263BB0 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -101,10 +142,10 @@
 			YES,
 		);
 		argumentStrings = (
-			"-NSOpen \"ObjectBinderFramework.framework/Resources/ObjectBinder.ibplugin\"",
+			"-NSOpen \"RXObjectBinderFramework.framework/Resources/RXObjectBinder.ibplugin\"",
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 			"PBXLSLaunchAction-0" = {
 				PBXLSLaunchAction = 0;
@@ -134,6 +175,8 @@
 		launchableReference = C096A9350C03CEAB00263BB0 /* Interface Builder.app */;
 		libgmallocEnabled = 0;
 		name = "Interface Builder";
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 		startupPath = "<<ProductDirectory>>";
@@ -143,6 +186,18 @@
 		lastKnownFileType = wrapper.application;
 		name = "Interface Builder.app";
 		path = "Applications/Interface Builder.app";
-		sourceTree = "DEVELOPER_DIR";
+		sourceTree = SYSTEM_DEVELOPER_DIR;
+	};
+	D421CF3C0DCB0A1A002030CE /* RXObjectBinder.tiff */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, -1}, {839, 1024}}";
+		};
+	};
+	D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {778, 678}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRange = "{463, 218}";
+		};
 	};
 }

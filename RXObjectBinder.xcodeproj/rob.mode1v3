@@ -263,22 +263,26 @@
 							<array>
 								<string>0259C574FE90428111CA0C5A</string>
 								<string>32DBCF9E0370C38000C91783</string>
+								<string>54D33B2406778DD400C9C163</string>
 								<string>54D33B2506778DF000C9C163</string>
+								<string>32DBCF9F0370C38200C91783</string>
 								<string>131E8FE8067F80F40006E0CE</string>
 								<string>54D33B2C06778E4400C9C163</string>
 								<string>C0894DA40C32F4C100401507</string>
+								<string>0259C582FE90428111CA0C5A</string>
+								<string>1ED78706FE9D4A0611CA0C5A</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
-									<integer>22</integer>
+									<integer>33</integer>
+									<integer>30</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 433}}</string>
+							<string>{{0, 254}, {186, 433}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -380,9 +384,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D409B8210DD1D3D20030F18F</string>
+				<string>D4E16F440DD35EFE0058C73A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D409B8220DD1D3D20030F18F</string>
+				<string>D4E16F450DD35EFE0058C73A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -517,7 +521,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>D421CEE00DCAFA65002030CE</string>
-		<string>/Users/rob/Developer/Projects/ObjectBinder/ObjectBinder.xcodeproj</string>
+		<string>/Users/rob/Developer/Projects/ObjectBinder/RXObjectBinder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>841 24 839 492 0 0 1680 1028 </string>
@@ -558,8 +562,6 @@
 							<string>179pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -599,7 +601,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D421CEE00DCAFA65002030CE</string>
-				<string>D409B8230DD1D3D20030F18F</string>
+				<string>D4E16F460DD35EFE0058C73A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

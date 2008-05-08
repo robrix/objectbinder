@@ -1,9 +1,9 @@
-#import "ObjectBinderInspector.h"
+#import "RXObjectBinderInspector.h"
 
-@implementation ObjectBinderInspector
+@implementation RXObjectBinderInspector
 
 -(NSString *)viewNibName {
-	return @"ObjectBinderInspector";
+	return @"RXObjectBinderInspector";
 }
 
 -(BOOL)supportsMultipleObjectInspection {

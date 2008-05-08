@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'ObjectBinder' target in the 'ObjectBinder' project.
+// Prefix header for all source files of the 'RXObjectBinder' target in the 'RXObjectBinder' project.
 //
 
 #ifdef __OBJC__

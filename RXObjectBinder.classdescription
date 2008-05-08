@@ -8,6 +8,6 @@
 		// myOutlet = NSView;
 		representedObject = id;
 	};
-	ClassName = ObjectBinder;
+	ClassName = RXObjectBinder;
 	SuperClass = NSObject;
 }

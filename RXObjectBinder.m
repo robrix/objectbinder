@@ -1,10 +1,10 @@
-// ObjectBinder.m
+// RXObjectBinder.m
 // Created by Rob Rix on 2008-05-02
 // Copyright 2008 Rob Rix
 
-#import "ObjectBinder.h"
+#import "RXObjectBinder.h"
 
-@implementation ObjectBinder
+@implementation RXObjectBinder
 
 @synthesize representedObject;
 
@@ -28,16 +28,16 @@
 
 -(id)initWithCoder:(NSCoder *)decoder {
 	if(self = [self init]) {
-		self.representedObject = [decoder decodeObjectForKey: @"ObjectBinderRepresentedObject"];
-		self.keys = [decoder decodeObjectForKey: @"ObjectBinderKeys"];
+		self.representedObject = [decoder decodeObjectForKey: @"RXObjectBinderRepresentedObject"];
+		self.keys = [decoder decodeObjectForKey: @"RXObjectBinderKeys"];
 		return self;
 	}
 	return nil;
 }
 
 -(void)encodeWithCoder:(NSCoder *)encoder {
-	[encoder encodeObject: representedObject forKey: @"ObjectBinderRepresentedObject"];
-	[encoder encodeObject: keys forKey: @"ObjectBinderKeys"];
+	[encoder encodeObject: representedObject forKey: @"RXObjectBinderRepresentedObject"];
+	[encoder encodeObject: keys forKey: @"RXObjectBinderKeys"];
 }
 
 
@@ -79,7 +79,7 @@
 
 
 -(id)copyWithZone:(NSZone *)zone {
-	ObjectBinder *copy = [[ObjectBinder allocWithZone: zone] init];
+	RXObjectBinder *copy = [[RXObjectBinder allocWithZone: zone] init];
 	copy.representedObject = representedObject;
 	copy.keys = self.keys;
 	return copy;
