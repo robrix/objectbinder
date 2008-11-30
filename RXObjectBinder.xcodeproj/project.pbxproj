@@ -212,8 +212,8 @@
 		54D33B2506778DF000C9C163 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */,
 				D421D04B0DCD1714002030CE /* RXAtomValueTransformer.h */,
+				D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */,
 				0259C57AFE90428111CA0C5A /* RXObjectBinderPlugin.h */,
 				0259C576FE90428111CA0C5A /* RXObjectBinderPlugin.m */,
 				0259C57BFE90428111CA0C5A /* RXObjectBinderInspector.h */,

@@ -13,7 +13,16 @@
 
 
 -(NSArray *)requiredFrameworks {
-	return [NSArray arrayWithObject: [NSBundle bundleWithIdentifier: @"org.garbagecollective.RXObjectBinder"]];
+	return [NSArray arrayWithObject: [NSBundle bundleWithIdentifier: @"org.garbagecollective.RXObjectBinderFramework"]];
+}
+
+-(NSString *)label {
+	return @"Object Binder";
+}
+
+
+-(NSView *)preferencesView {
+	return [[[NSView alloc] initWithFrame: NSMakeRect(0, 0, 0, 0)] autorelease];
 }
 
 @end
