@@ -223,6 +223,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -269,21 +271,17 @@
 								<string>0259C582FE90428111CA0C5A</string>
 								<string>1ED78706FE9D4A0611CA0C5A</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>D4A22A570EE2B246004C3068</string>
-								<string>D4A22A580EE2B246004C3068</string>
-								<string>D4A22A3F0EE2B0F5004C3068</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>26</integer>
-									<integer>0</integer>
+									<integer>33</integer>
+									<integer>30</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 383}, {186, 433}}</string>
+							<string>{{0, 254}, {186, 433}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -347,8 +345,6 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -385,9 +381,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D4A22A2F0EE2AFD8004C3068</string>
+				<string>D4A22AD60EE2C24A004C3068</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D4A22A300EE2AFD8004C3068</string>
+				<string>D4A22AD70EE2C24A004C3068</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -521,7 +517,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D421CEE00DCAFA65002030CE</string>
 		<string>/Volumes/Damascus/Users/rob/Developer/Projects/ObjectBinder/RXObjectBinder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
