@@ -276,12 +276,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>33</integer>
+									<integer>32</integer>
 									<integer>30</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 254}, {186, 433}}</string>
+							<string>{{0, 281}, {186, 433}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -381,9 +381,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D4A22AD60EE2C24A004C3068</string>
+				<string>D444FF750EE3ADD9007C148A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D4A22AD70EE2C24A004C3068</string>
+				<string>D444FF760EE3ADD9007C148A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -517,6 +517,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>D421CEE00DCAFA65002030CE</string>
 		<string>/Volumes/Damascus/Users/rob/Developer/Projects/ObjectBinder/RXObjectBinder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -599,7 +600,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D421CEE00DCAFA65002030CE</string>
-				<string>D4A22A2E0EE2AFD7004C3068</string>
+				<string>D444FF6C0EE3AD99007C148A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -610,7 +611,7 @@
 			<key>WindowToolGUID</key>
 			<string>D421CEE00DCAFA65002030CE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
