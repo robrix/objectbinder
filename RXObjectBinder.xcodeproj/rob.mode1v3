@@ -276,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>32</integer>
+									<integer>33</integer>
 									<integer>30</integer>
 								</array>
 							</array>
@@ -381,9 +381,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D444FF750EE3ADD9007C148A</string>
+				<string>D457CD610EF441E2003785CC</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D444FF760EE3ADD9007C148A</string>
+				<string>D457CD620EF441E2003785CC</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -517,7 +517,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D421CEE00DCAFA65002030CE</string>
 		<string>/Volumes/Damascus/Users/rob/Developer/Projects/ObjectBinder/RXObjectBinder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
