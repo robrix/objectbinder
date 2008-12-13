@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	0259C573FE90428111CA0C5A /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = C096A9340C03CEAB00263BB0 /* Interface Builder */;
 		activeTarget = 53DF6901067E5B8E0090B5B0 /* All */;
 		addToTargets = (
@@ -55,7 +55,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					392,
+					302,
 					20,
 					48,
 					43,
@@ -77,7 +77,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					352,
+					262,
 					60,
 					20,
 					48,
@@ -94,8 +94,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 250888570;
-			PBXWorkspaceStateSaveDate = 250888570;
+			PBXPerProjectTemplateStateSaveDate = 250903136;
+			PBXWorkspaceStateSaveDate = 250903136;
 		};
 		sourceControlManager = C096A9320C03CEA700263BB0 /* Source Control */;
 		userBuildSettings = {

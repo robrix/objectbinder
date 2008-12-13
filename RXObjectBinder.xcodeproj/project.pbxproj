@@ -37,6 +37,7 @@
 		D421CEF80DCAFE54002030CE /* RXObjectBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D421CEF60DCAFE54002030CE /* RXObjectBinder.m */; };
 		D421CF3D0DCB0A1A002030CE /* RXObjectBinder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D421CF3C0DCB0A1A002030CE /* RXObjectBinder.tiff */; };
 		D421D04C0DCD1714002030CE /* RXAtomValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D421D04A0DCD1714002030CE /* RXAtomValueTransformer.m */; };
+		D47E71150EF47BED000BEB8E /* RXObjectBinderFramework.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* RXObjectBinderFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,20 @@
 			remoteInfo = RXObjectBinderFramework;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D47E711C0EF47BF5000BEB8E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D47E71150EF47BED000BEB8E /* RXObjectBinderFramework.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0259C576FE90428111CA0C5A /* RXObjectBinderPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RXObjectBinderPlugin.m; sourceTree = "<group>"; };
@@ -275,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "RXObjectBinder" */;
 			buildPhases = (
+				D47E711C0EF47BF5000BEB8E /* Copy Frameworks */,
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
 				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
@@ -427,7 +443,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
 				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/RXObjectBinderFramework.framework/Resources/";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -456,8 +471,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
 				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/RXObjectBinderFramework.framework/Resources/";
-				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
